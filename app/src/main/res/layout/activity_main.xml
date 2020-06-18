@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroung"
-    android:onClick="turn"
+    android:onClick="turns"
     tools:context=".MainActivity">
 
     <TextView
@@ -30,7 +30,7 @@
         android:layout_height="474dp"
         android:layout_marginBottom="32dp"
         android:contentDescription="@string/our_main_grid"
-        android:onClick="turn"
+        android:onClick="turns"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

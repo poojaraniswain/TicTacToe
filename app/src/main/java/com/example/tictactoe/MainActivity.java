@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    public void turn(View view){
+    public void turns(View view){
         if(!gameactive){
             reset(view);
         }
